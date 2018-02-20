@@ -37,7 +37,7 @@ module Adomachi
     end
 
     def ranking
-      (1..10).map do |rank|
+      (1..20).map do |rank|
         { rank: rank, title: at(rank)[:title], description: at(rank)[:description] }
       end
     end
